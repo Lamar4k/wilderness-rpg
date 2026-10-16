@@ -45,7 +45,6 @@ jobs:
 
       - name: Build with Buildozer
         run: |
-          buildozer clean
           buildozer -v android debug
 
       - name: Upload APK Artifact
